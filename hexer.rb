@@ -5,7 +5,8 @@ str = if ARGV.size > 1
 elsif ARGV.size == 1
 	ARGV[0]
 else
-	getc.chomp
+	print "Enter hexing text: "
+	gets.chomp
 end
 
 chars = []
